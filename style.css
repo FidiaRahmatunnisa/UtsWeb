@@ -1,0 +1,287 @@
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background:linear-gradient(#080080, #bc6743);
+}
+
+.utama{
+	margin:20px auto;
+	overflow: hidden;
+	max-width:1080px;
+}
+
+
+.kepala{
+   background-color:black;
+   color : white;
+   padding : 30px;       
+    
+}
+
+header h2{
+	width:80%;
+	height:50%;
+	float:left;
+	margin-top:10px;
+	margin-left:20px;
+	text-align:left;
+	margin-bottom:60px;
+}
+
+header img{
+	width:14%;
+	float:left;
+	padding:10px;
+}
+
+.navigasi ul{
+    list-style-type: none;
+	overflow: hidden;
+	font-weight: bold;
+	color:white;
+	width:50%;
+}
+
+.navigasi li{
+ 
+}
+
+.navigasi li a {
+	color: white;
+	float:left;
+	border-left: 5px solid crimson;
+	text-decoration: none;
+}
+
+.navigasi li a:hover{
+	background-color:white;
+	transition-duration: 1s;
+	color:black;
+}
+
+.satu{
+	width:100%;
+	background-color:white;
+
+}
+
+.satu table{
+	margin: 20px auto;
+	background-color: white;
+    float:left;
+	padding:30px;
+    border-radius:10px;
+}
+.satu td{
+	padding:3px;
+	text-align:center;
+}
+
+.satu tr{
+	padding:3px;
+}
+
+.satu img{
+	width:250px;
+	height:150px;
+	
+}
+
+.satu td{
+   	
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  
+}
+
+.lanjut{
+	float:left;
+	padding:10px;
+	padding-left:10px;
+	margin-left:300px;
+}
+
+a:hover {
+  background-color: #ffff00;
+  color: black;
+  margin:0px;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.tombol1{
+	color:black;
+	background-color:white;
+}
+
+.tombol2{
+    color:black;
+	background-color:white;
+}
+
+.tombol3{
+    color:black;
+	background-color:white;
+}
+
+.tombol4{
+    color:black;
+	background-color:white;
+}
+
+.tombol5{
+    color:black;
+	background-color:white;
+}
+
+.next {
+  background-color: #09b700;
+  color: white;
+}
+
+
+
+.dua {
+	padding:20px;
+	float:right;
+    background-color:grey;
+	height:700px;
+	border-radius:10px;
+	margin:10px;
+	height:500px;
+	}
+
+.dua ul{
+	list-style-type:none;
+	 margin-left:10px;
+	 padding:5px;
+}
+
+.dua li{
+	padding:10px;
+}
+
+.tiga{
+	width:100%;
+     float:left;
+	 padding:20px;
+	background-color:black;
+	color:white;
+
+}
+
+ footer {
+	clear: both;
+	background-color: white;
+	color: black;
+	padding: 10px;
+	text-align:center;
+	width:100%;
+
+}
+
+.a{
+	padding:10px;
+	width:25%;
+	float:left;
+}
+
+.b{
+	padding:10px;
+	width:25%;
+    float:left;	
+}
+
+.c{
+	padding:10px;
+	width:30%;
+	float:left;
+}
+
+.c ul{
+	list-style-type:none;
+}
+
+.d{
+	padding:10px;
+	width:20%;
+	float:right;
+}
+
+ .d a:hover{
+   background-color:white;
+   color:black;
+ }
+
+.email{
+ margin-top:10px;	
+	
+}
+
+.simpan{
+	text-decoration: none;
+	padding: 10px;
+	width: 180px;
+	background-color: red;
+	text-align: center;
+	display: block;
+	margin-top: 10px;
+	color: white;
+	
+}
+
+ input:hover{
+	background-color:white;
+	color:black;
+}
+
+.gabung{
+	background-color:darkOrange;
+	padding:10px;
+	color:white;
+	width:200px;
+	margin-top:10px;
+	text-align:center;
+}
+
+@media screen and (max-width:1095px) {
+	.utama {
+		width: 100%;
+	}
+	.satu {
+		width: 45%;
+	}
+	.dua{
+		width: 50%;
+		float: right;
+	}
+	.tiga {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width:780px){
+	header h2{
+		text-align: center;
+	}
+	.navigasi li{
+		float: none;
+	}
+	.satu .dua .tiga {
+		float: none;
+		width: 100%;
+	}	
+}
